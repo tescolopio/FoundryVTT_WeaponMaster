@@ -1,0 +1,37 @@
+/* ============================================================
+   Weapon Mastery – Chat message styles
+   ============================================================ */
+
+.weapon-mastery-notification {
+  border-left: 4px solid #7c3f00;
+  background: rgba(124, 63, 0, 0.08);
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin: 4px 0;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.weapon-mastery-notification p {
+  margin: 3px 0;
+}
+
+.weapon-mastery-notification strong {
+  color: #4a1a00;
+}
+
+.weapon-mastery-hint {
+  color: #555;
+  font-size: 0.88em;
+  margin-top: 4px !important;
+}
+
+/* Reminder-only masteries (Cleave, Graze, Nick) use a slightly different tint */
+.weapon-mastery-reminder {
+  border-left-color: #1a5276;
+  background: rgba(26, 82, 118, 0.08);
+}
+
+.weapon-mastery-reminder strong {
+  color: #154360;
+}
