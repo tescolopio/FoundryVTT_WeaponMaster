@@ -1,0 +1,34 @@
+{
+  "id": "weapon-mastery",
+  "title": "D&D 2024 Weapon Mastery",
+  "description": "Automatically applies temporary status effects to targeted tokens based on D&D 2024 Weapon Mastery properties. Hooks into dnd5e attack rolls, checks the weapon's mastery, and creates a 1-round ActiveEffect on hit.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "readme": "README.md",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "FoundryVTT WeaponMaster Contributors"
+    }
+  ],
+  "esmodules": [
+    "scripts/weapon-mastery.js"
+  ],
+  "styles": [
+    "styles/weapon-mastery.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "system": [
+    "dnd5e"
+  ],
+  "socket": true
+}
